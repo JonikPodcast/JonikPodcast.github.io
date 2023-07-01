@@ -5,23 +5,106 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jonik</title>
-    <style>
-        html{
-            overflow: scroll;
-        }
-        .content {
-            max-width: 960px;
-            margin: auto;
-        }
-        .episode {
-            width: 100%;
-        }
-    </style>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400;1,500;1,600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #181818;
+      color: #fff;
+      font-family: "Montserrat", Arial, sans-serif;
+      /* font-family: 'Segoe UI', Arial, sans-serif; */
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      background-color: #797676;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 30px;
+      margin: 0;
+      color: #fff;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .episode {
+      margin-bottom: 40px;
+    }
+
+    .episode-title {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .episode-description {
+      font-size: 16px;
+      margin-bottom: 10px;
+      color: #bbbbbb;
+    }
+
+    .logo {
+      max-width: 40%;
+      margin-bottom: 20px;
+    }
+
+    .ellipsis {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .ellipsis::before,
+    .ellipsis::after {
+      content: "--"; /* HTML entity for ellipsis character */
+      color: #ccc;
+    }
+  </style>
 </head>
+
 <body>
-    <div class="content">
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/0KjzrPuHQxJQ2M5NobEzqY?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    </div>
+    
+    
+        <header>
+            <h1><em>The Jonik Podcast</em></h1>
+          </header>
+        
+          <main>
+            <p>I'm Jon. And I'm Ronik.</p>
+            <p>After years of working together on music, science, and debate, we're excited to debut our not-so-heavily anticipated podcast. Join us in our first season, For Lack of a Better Word, an etymological exploration of life. </p>
+        
+            <div class="ellipsis"></div>
+
+            <div class="episode">
+              <h2 class="episode-title">Episode 1</h2>
+              <p class="episode-description">New Year, New Etymology! While the people around us press the reset button on different aspects of their lives, we explore one of the most common phrases associated with beginning anew.</p>
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/0KjzrPuHQxJQ2M5NobEzqY?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+        
+            <div class="episode">
+              <h2 class="episode-title">Episode 2</h2>
+              <p class="episode-description">April Fools, Ronik! Betcha thought I wouldn't post an episode this month but I totally did!</p>
+              <p class="episode-description">Ronik's in Spain right now so he doesn't know I recorded this but for anyone who was wondering what the heck a "jonik" was, it is, for lack of a better word, US!</p>
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/7xt96QH7vDZvQqKTrrjxkf?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+        
+            <!-- Add more episodes as needed -->
+        
+          </main>
 </body>
 </html>
 
